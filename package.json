@@ -4,11 +4,11 @@
   "description": "bootstrap with sass",
   "main": "index.js",
   "scripts": {
-    "dev": "sass scss/style.scss assets/css/style.css"
+    "dev": "sass --watch scss/style.scss css/style.css"
   },
   "repository": {
     "type": "git",
-    "url": "first_bootstrap_with sass project template"
+    "url": ""
   },
   "keywords": [
     "bootstrap-v5",
