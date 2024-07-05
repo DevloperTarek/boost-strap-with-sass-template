@@ -1,0 +1,16 @@
+@use 'custom';
+
+//import components
+@use './components/animations';
+@use './components/button';
+@use './components/mixins';
+@use './components/typography';
+
+//import sections
+
+@use './sections/hero';
+@use './sections/navbar';
+
+.learn_more{
+     @include single_btn
+}
