@@ -10,7 +10,3 @@
 
 @use './sections/hero';
 @use './sections/navbar';
-
-.learn_more{
-     @include single_btn
-}
